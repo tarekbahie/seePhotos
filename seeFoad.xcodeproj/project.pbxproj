@@ -12,9 +12,33 @@
 		479BC53D221462AB00EA841A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479BC53B221462AB00EA841A /* Main.storyboard */; };
 		479BC53F221462AD00EA841A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479BC53E221462AD00EA841A /* Assets.xcassets */; };
 		479BC542221462AD00EA841A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479BC540221462AD00EA841A /* LaunchScreen.storyboard */; };
+		479BC54C2214632900EA841A /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479BC5492214632900EA841A /* RestKit.framework */; };
+		479BC54D2214632900EA841A /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 479BC5492214632900EA841A /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		479BC54E2214632900EA841A /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479BC54A2214632900EA841A /* SVProgressHUD.framework */; };
+		479BC54F2214632900EA841A /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 479BC54A2214632900EA841A /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		479BC5502214632900EA841A /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479BC54B2214632900EA841A /* VisualRecognitionV3.framework */; };
+		479BC5512214632900EA841A /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 479BC54B2214632900EA841A /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C3780D9A9FE507EBF5ABA05 /* Pods_seeFoad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71562D5A647A44A6A3FE893 /* Pods_seeFoad.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		479BC5522214632900EA841A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				479BC54F2214632900EA841A /* SVProgressHUD.framework in Embed Frameworks */,
+				479BC5512214632900EA841A /* VisualRecognitionV3.framework in Embed Frameworks */,
+				479BC54D2214632900EA841A /* RestKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0FECBD5E92828D038A0C8BF5 /* Pods-seeFoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seeFoad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seeFoad/Pods-seeFoad.debug.xcconfig"; sourceTree = "<group>"; };
 		479BC534221462AB00EA841A /* seeFoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seeFoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		479BC537221462AB00EA841A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		479BC539221462AB00EA841A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,11 @@
 		479BC53E221462AD00EA841A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		479BC541221462AD00EA841A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		479BC543221462AD00EA841A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479BC5492214632900EA841A /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RestKit.framework; sourceTree = "<group>"; };
+		479BC54A2214632900EA841A /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = "<group>"; };
+		479BC54B2214632900EA841A /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		739ED5375F6DA8C53214055A /* Pods-seeFoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seeFoad.release.xcconfig"; path = "Pods/Target Support Files/Pods-seeFoad/Pods-seeFoad.release.xcconfig"; sourceTree = "<group>"; };
+		B71562D5A647A44A6A3FE893 /* Pods_seeFoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_seeFoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479BC54E2214632900EA841A /* SVProgressHUD.framework in Frameworks */,
+				479BC5502214632900EA841A /* VisualRecognitionV3.framework in Frameworks */,
+				479BC54C2214632900EA841A /* RestKit.framework in Frameworks */,
+				7C3780D9A9FE507EBF5ABA05 /* Pods_seeFoad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +71,13 @@
 		479BC52B221462AB00EA841A = {
 			isa = PBXGroup;
 			children = (
+				479BC5492214632900EA841A /* RestKit.framework */,
+				479BC54A2214632900EA841A /* SVProgressHUD.framework */,
+				479BC54B2214632900EA841A /* VisualRecognitionV3.framework */,
 				479BC536221462AB00EA841A /* seeFoad */,
 				479BC535221462AB00EA841A /* Products */,
+				8822F38CEBB77055B77EC215 /* Pods */,
+				9AFB8114FEA616979379A7C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +102,23 @@
 			path = seeFoad;
 			sourceTree = "<group>";
 		};
+		8822F38CEBB77055B77EC215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FECBD5E92828D038A0C8BF5 /* Pods-seeFoad.debug.xcconfig */,
+				739ED5375F6DA8C53214055A /* Pods-seeFoad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AFB8114FEA616979379A7C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B71562D5A647A44A6A3FE893 /* Pods_seeFoad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +126,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 479BC546221462AD00EA841A /* Build configuration list for PBXNativeTarget "seeFoad" */;
 			buildPhases = (
+				B17B085F1389D077F1C182D7 /* [CP] Check Pods Manifest.lock */,
 				479BC530221462AB00EA841A /* Sources */,
 				479BC531221462AB00EA841A /* Frameworks */,
 				479BC532221462AB00EA841A /* Resources */,
+				479BC5522214632900EA841A /* Embed Frameworks */,
+				0C06D37851B4BE755E09D256 /* [CP] Embed Pods Frameworks */,
+				C6B1E0B95F7791ABD1E4FA96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +188,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C06D37851B4BE755E09D256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-seeFoad/Pods-seeFoad-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seeFoad/Pods-seeFoad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17B085F1389D077F1C182D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-seeFoad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B1E0B95F7791ABD1E4FA96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-seeFoad/Pods-seeFoad-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seeFoad/Pods-seeFoad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		479BC530221462AB00EA841A /* Sources */ = {
@@ -280,9 +398,15 @@
 		};
 		479BC547221462AD00EA841A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FECBD5E92828D038A0C8BF5 /* Pods-seeFoad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQLDC32ZJ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = seeFoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +421,15 @@
 		};
 		479BC548221462AD00EA841A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739ED5375F6DA8C53214055A /* Pods-seeFoad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQLDC32ZJ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = seeFoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
